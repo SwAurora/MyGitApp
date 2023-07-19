@@ -4,6 +4,10 @@
 
 console.log('index.js')
 
+function logout(username) {
+    //logout 처리
+}
+
 function login(username) {
     $.ajax({
         type : 'post',           // 타입 (get, post, put 등등)
@@ -25,4 +29,4 @@ function login(username) {
         },
         
     })
-};
+}
